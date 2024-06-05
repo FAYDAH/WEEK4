@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lalita's Registration Form</title>
+    <link rel="stylesheet" href="WEEK4.css">
+</head>
+<body>
+    <div class="container">
+        <h1>LALITA REGISTRATION FORM</h1>
+        <form id="registrationForm">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div>
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+            </div>
+            <button type="submit">Register</button>
+            <p id="errorMessage" class="error-message"></p>
+        </form>
+    </div>
+    <script src="WEEK4.js"></script>
+</body>
+</html>
